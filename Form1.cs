@@ -12,7 +12,8 @@ namespace WinFormsApp1
             Graphics graphics = this.CreateGraphics();
 
             graphics.FillEllipse(Brushes.Gray, 20, 50, 100, 100);
-            
+            graphics.FillPie(Brushes.Aqua, 40, 40, 40, 40, 45, -180);
+
             graphics.Dispose();
         }
     }
